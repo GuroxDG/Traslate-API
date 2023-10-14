@@ -83,11 +83,9 @@
         <None Include="App.config"/>
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="images\" />
-    </ItemGroup>
-    <ItemGroup>
       <Content Include=".gitignore" />
       <Content Include="Config\Credentials.ini" />
+      <Content Include="images\folder.ico" />
       <Content Include="README.md" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
