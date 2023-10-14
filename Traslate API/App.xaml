@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Traslate_API"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         <BitmapImage x:Key="AppIcon" UriSource="images\folder.ico"></BitmapImage>
+        <BitmapImage x:Key="AppIcon" UriSource="C:\Users\gurox\Estudios\C#\Traslate API\Traslate API\images\folder.ico"></BitmapImage>
     </Application.Resources>
 </Application>
