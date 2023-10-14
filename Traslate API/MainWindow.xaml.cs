@@ -1,4 +1,6 @@
-﻿namespace Traslate_API
+﻿using System.Windows;
+
+namespace Traslate_API
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -8,6 +10,11 @@
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnTraslate_OnClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Traducir");
         }
     }
 }

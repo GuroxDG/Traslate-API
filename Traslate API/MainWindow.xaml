@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Button 
+            Name="BtnTraslate"
+            Click="BtnTraslate_OnClick">
+            BtnTraslate
+        </Button>
         
     </Grid>
 </Window>
