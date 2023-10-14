@@ -51,6 +51,7 @@
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
         </ApplicationDefinition>
+        <Compile Include="Utils\API.cs" />
         <Page Include="MainWindow.xaml">
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
@@ -85,6 +86,8 @@
       <Folder Include="images\" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include=".gitignore" />
+      <Content Include="Config\Credentials.ini" />
       <Content Include="README.md" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
