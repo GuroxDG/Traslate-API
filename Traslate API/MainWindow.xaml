@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:Traslate_API"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525" Icon="{StaticResource AppIcon}">
-    <Grid>
+    <Grid Margin="10">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*" />
             <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -17,6 +17,9 @@
             Grid.Row="0" 
             Grid.Column="1"
             Name="BtnTranslate"
+            Height="50"
+            Width="50"
+            BorderBrush="RoyalBlue"
             Click="BtnTranslate_OnClick">
             Translate
         </Button>
@@ -32,7 +35,12 @@
         
         <TextBox 
             Grid.Column="2"
-            Grid.Row="0">
+            Grid.Row="0"
+            TextWrapping="Wrap"
+            HorizontalScrollBarVisibility="Auto"
+            VerticalScrollBarVisibility="Auto"
+            AcceptsReturn="True"
+            IsEnabled="False">
         </TextBox>
         
     </Grid>
