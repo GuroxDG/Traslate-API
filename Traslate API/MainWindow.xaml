@@ -11,8 +11,11 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="60"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
 
         <Button 
             Grid.Row="0" 
@@ -25,18 +28,15 @@
             Translate
         </Button>
         
-        <StackPanel Grid.Column="0">
-            <Button> hola</Button>
-        </StackPanel>
-        
-        <TextBox 
+        <StackPanel Name="PnlC1"
             Grid.Column="0"
-            Grid.Row="0"
-            TextWrapping="Wrap"
-            HorizontalScrollBarVisibility="Auto"
-            VerticalScrollBarVisibility="Auto"
-            AcceptsReturn="True">
-        </TextBox>
+            Grid.Row="0">
+            <Button Name="Btn1" Height="20" Width="75" VerticalAlignment="Top" Content="ss"/>
+            <TextBox 
+                Name="TxtIn"
+                VerticalAlignment="Stretch" 
+                HorizontalAlignment="Stretch"/>
+        </StackPanel>
         
         <TextBox 
             Grid.Column="2"
