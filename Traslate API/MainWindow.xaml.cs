@@ -10,13 +10,13 @@ namespace Traslate_API
         public MainWindow()
         {
             InitializeComponent();
-           
+            
         }
         
         private void BtnTranslate_OnClick(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Traducir");
-            TxtIn.Height = PnlC1.Height - Btn1.Height;
+            TxtIn.Height = Btn1.Height + PnlC1. + 20;
         }
     }
 }
