@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525" Icon="{StaticResource AppIcon}">
     <Grid Margin="10">
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="60"/>
@@ -23,6 +24,10 @@
             Click="BtnTranslate_OnClick">
             Translate
         </Button>
+        
+        <StackPanel Grid.Column="0">
+            <Button> hola</Button>
+        </StackPanel>
         
         <TextBox 
             Grid.Column="0"
