@@ -88,5 +88,8 @@
       <Content Include="images\folder.ico" />
       <Content Include="README.md" />
     </ItemGroup>
+    <ItemGroup>
+      <Folder Include="UI\" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>

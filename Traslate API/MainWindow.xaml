@@ -18,12 +18,13 @@
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
             
-        <Button Grid.Column="0"
-                Grid.Row="0"
-                Name="BtnTraslate"
-                Click="BtnTraslate_OnClick">
-                BtnTraslate
-            </Button>
+        <Button 
+            Grid.Column="0"
+            Grid.Row="0"
+            Name="BtnTraslate"
+            Click="BtnTraslate_OnClick">
+            BtnTraslate
+        </Button>
         <StackPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="2">
             <Button> Hola </Button>
             <Button> Hola </Button>
