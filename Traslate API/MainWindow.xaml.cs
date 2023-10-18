@@ -11,8 +11,8 @@ namespace Traslate_API
         {
             InitializeComponent();
         }
-
-        private void BtnTraslate_OnClick(object sender, RoutedEventArgs e)
+        
+        private void BtnTranslate_OnClick(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Traducir");
         }
