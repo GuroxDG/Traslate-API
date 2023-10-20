@@ -31,11 +31,10 @@
         <StackPanel Name="PnlC1"
             Grid.Column="0"
             Grid.Row="0">
-            <Button Name="Btn1" Height="20" Width="75" VerticalAlignment="Top" Content="ss"/>
-            <TextBox 
-                Name="TxtIn"
-                VerticalAlignment="Stretch" 
-                HorizontalAlignment="Stretch"/>
+            <Button Name="Btn1" Height="20" VerticalAlignment="Top" Content="ss"/>
+            <TextBox Name="TxtIn
+            TextWrapping="Wrap">
+            </TextBox>
         </StackPanel>
         
         <TextBox 
