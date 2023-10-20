@@ -30,10 +30,17 @@
         
         <StackPanel Name="PnlC1"
             Grid.Column="0"
-            Grid.Row="0">
-            <Button Name="Btn1" Height="20" VerticalAlignment="Top" Content="ss"/>
-            <TextBox Name="TxtIn
-            TextWrapping="Wrap">
+            Grid.Row="0"
+            Grid.IsSharedSizeScope="True">
+            <Button Name="Btn1" Height="20" VerticalAlignment="Top" Content="ss">
+            </Button>
+            <Canvas Background="Blue" Height="2">
+                <ComboBox Height="20"></ComboBox>
+            </Canvas>
+            <TextBox Name="Box"
+                TextWrapping="Wrap"
+                AcceptsReturn="True"
+                VerticalAlignment="Stretch">
             </TextBox>
         </StackPanel>
         

@@ -10,7 +10,7 @@ namespace Traslate_API
         public MainWindow()
         {
             InitializeComponent();
-            TxtIn.Height = 250;
+            //TxtIn.Height = 250;
             
         }
         
